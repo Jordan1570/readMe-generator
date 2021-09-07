@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require ('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./generateMarkdown')
 // TODO: Create an array of questions for user input
 inquirer
 .prompt([
@@ -53,55 +54,9 @@ inquirer
 ])
 .then((data) => {
      console.log(data);
-    var readMe = 
+    var readMe = generateMarkdown(data)
     
-        `${data.name}
-
-        ## ${}
-        
-        ## Description 
-        
-        ${data.description}
-        
-        ## Table of Contents 
-        
-        - # installation
-                
-        - # Usage 
-        
-        - # License
-        
-        - # Contributing
-        
-        - # Tests
-        
-        - # Questions
-        
-        ## Installation 
-        
-        ${data.installation}
-        
-        ## Usage
-        
-        ${data.usage}
-        
-        ## License 
-        
-        ${data.license}
-        
-        ## Contributing 
-        
-        ${data.contribution}
-        
-        ## Tests 
-        
-        ${data.tests}
-        
-        ## Questions
-
-        If you have anu questions reach me at ${data.email} or you can find some of my work at ${data.github}.
-        `
-
+       
     fs.writeFile('readMe.md', readMe, (err) =>
       err ? console.log(err) : console.log('Success!')
     );
