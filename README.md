@@ -1,46 +1,48 @@
-# a
+# readMe generator
 
-  ## badge-placeholder
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  
  ## Description 
  
- a
+ generete readme quick
  
  ## Table of Contents 
  
- - [installation](#installation)
+ - [Installation](#installation)
          
  - [Usage](#usage) 
  
- - [License](#usage)
+ 
+- [Licenses](#license)
+
  
  - [Contributing](#contributing)
  
  - [Tests](#tests)
  
- - [Questions[](#questions)
+ - [Questions](#questions)
  
  ## Installation 
  
- a
+ npm install name
  
  ## Usage
  
- a
+ uses inquirer
  
- ## License 
  
- Mozilla
+## License
+ this project is licensed under MIT
  
  ## Contributing 
  
- a
+ reach me
  
  ## Tests 
  
- undefined
+ npm run test
  
  ## Questions
 
- If you have anu questions reach me at a or you can find some of my work at a.
+ If you have anu questions reach me at Jscott or you can find some of my work at Jordan1570.
  
