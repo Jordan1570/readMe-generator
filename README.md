@@ -1,10 +1,10 @@
-# ReadMe Generator
+# a
 
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  
  ## Description 
  
- ReadMe Generator to save me time for whenever I have to write a readMe
+ a
  
  ## Table of Contents 
  
@@ -27,11 +27,14 @@
  ### To install necessary dependencies, run the following command:
 
 
- npm i
+ a
  
  ## Usage
  
- It uses Inquirer
+ https://youtu.be/OsJl9nbYozE
+
+ a
+ 
  
  
 ## License
@@ -39,15 +42,15 @@
  
  ## Contributing 
  
- Feel free to reach out to me
+ a
  
  ## Tests 
 
  ### To run tests, run the following commmand:
 
- npm run test
+ a
  
  ## Questions
 
- If you have any questions reach me at Jscott0751@gmail.com and you check out some of my work at [Jordan1570](https://github.com/Jordan1570)
+ If you have any questions reach me at a and you check out some of my work at [a](https://github.com/Jordan1570)
  
