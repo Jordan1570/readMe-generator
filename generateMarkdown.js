@@ -6,6 +6,8 @@ function renderLicenseBadge(license) {
       return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
     case 'Mozilla':
       return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)'
+    case 'EPL':
+      return '[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)'
     default: 
       return ''
   }
@@ -60,6 +62,9 @@ function generateMarkdown(data) {
  
  ## Installation 
  
+ ### To install necessary dependencies, run the following command:
+
+
  ${data.installation}
  
  ## Usage
@@ -73,12 +78,14 @@ function generateMarkdown(data) {
  ${data.contribution}
  
  ## Tests 
- 
+
+ ### To run tests, run the following commmand:
+
  ${data.test}
  
  ## Questions
 
- If you have any questions reach me at ${data.email} or you can find some of my work at ${data.github}.
+ If you have any questions reach me at ${data.email} and you check out some of my work at [${data.github}](https://github.com/Jordan1570)
  `
 ;
 }
