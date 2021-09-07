@@ -8,17 +8,17 @@
  
  ## Table of Contents 
  
- - # installation
+ - [installation](#installation)
          
- - # Usage 
+ - [Usage](#usage) 
  
- - # License
+ - [License](#usage)
  
- - # Contributing
+ - [Contributing](#contributing)
  
- - # Tests
+ - [Tests](#tests)
  
- - # Questions
+ - [Questions[](#questions)
  
  ## Installation 
  
@@ -30,7 +30,7 @@
  
  ## License 
  
- MIT
+ Mozilla
  
  ## Contributing 
  

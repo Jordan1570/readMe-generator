@@ -29,7 +29,7 @@ inquirer
         type: 'list',
         name: 'license',
         message: 'What license is the application covered under?',
-        choices: ['EPL', 'MIT', 'Mozilla'],
+        choices: ['EPL', 'MIT', 'Mozilla', 'None'],
     },
     {
         type: 'input',
